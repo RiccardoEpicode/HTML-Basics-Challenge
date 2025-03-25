@@ -1,43 +1,62 @@
 *{
-    background-color:#363535;
+    background-color:#1C2A62;
+}
+
+.signature{
+    font-family: 'Great Vibes', cursive;
+    font-size: 80px;
+    margin-top: 40px;
 }
 
 #fotoMia{
     height: 400px;
     width: 300px;
+    border-radius: 28%;
 }
 
 #titolo{
-    color: aliceblue;
+    color: #BBC0D0;
 }
 
 .titoloPagina{    
     font-size:larger;
 }
 
+.origins{
+    font-style: italic; color: #ccc; font-size: 17px;
+    text-align: center;
+    font-size: 30px;
+}
+.itFlag{
+    height: 24px; 
+    vertical-align: middle; 
+    margin-left: 10px;
+}
+
 .sectionTitle{
     font-weight: bold;
     font-size:30px;
     padding: 20px;
-    color: aliceblue;
+    color: #BBC0D0;
     text-align: center;
 }
 
 .paragrafo{
     font-family: 'IBM Plex Sans', sans-serif Didot (serif);
     font-size: larger;
-    color: aliceblue;
+    color: #BBC0D0;
     font-size: 25px;
 }
 
 .lista{
     font-family: 'IBM Plex Sans', sans-serif Didot (serif);
     font-size: larger;
-    color: aliceblue;
+    color: #BBC0D0;
     font-size: 25px;
 }
 
 ul > li {
+    margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 30px;;
     list-style: none;
@@ -47,36 +66,32 @@ ul > li {
   text-align: center;
   font-family: 'IBM Plex Sans', serif;
   font-size: 25px;
-  color: aliceblue;
+  color: #BBC0D0;
 }
 
 .Edu table {
    margin: 20px auto;
    border-collapse: collapse;
    width: 80%;
-   background-color: #1e1e1e; 
 }
 .Edu th, .Edu td {
-   border: 2px solid #ccc;
+   border: 2px solid #BBC0D0;
    padding: 12px 18px;
    text-align: center;
-   color: white;
+   color: #BBC0D0;
 }
   
 .Edu th {
-   background-color: #333;
+   background-color: #bb3b3b;
    font-weight: bold;
 }
   
-.Edu tr:nth-child(even) {
-   background-color: #2c2c2c;
-}
 
 .contatti{
     text-align: center;
     font-family: 'IBM Plex Sans', sans-serif Didot (serif);
     font-size: larger;
-    color: aliceblue;
+    color: #BBC0D0;
     font-size: 25px;
 }
 
@@ -88,21 +103,32 @@ ul > li {
  .contatti th, .contatti td {
     padding: 12px 18px;
     text-align: center;
-    color: white;
  }
    
  .contatti th {
     font-weight: bold;
  }
-   
- .contatti tr:nth-child(even) {
-    background-color: #2c2c2c;
- }
  
+ .custom-email {
+    color: #F9A826;
+    text-decoration: none;
+  }
+  .custom-email:hover {
+    text-decoration: underline;
+    color: #bb3b3b;
+  }
+
+  .custom-phone{
+    color: #F9A826;
+  }
+
+  .custom-phone:hover {
+    color: #bb3b3b;
+  }
 
 .footer{
-   padding: 20px 0; 
+   padding-top: 50px; 
    text-align: center;
-   color: aliceblue;
-   font-size: 25px;
+   color: #BBC0D0;
+   font-size: 20px;
 }
