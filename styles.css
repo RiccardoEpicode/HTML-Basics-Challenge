@@ -46,6 +46,9 @@
     font-size: larger;
     color: #BBC0D0;
     font-size: 25px;
+    margin: 30px;
+    word-spacing: 4px;
+    line-height: 1.8;
 }
 
 .lista{
